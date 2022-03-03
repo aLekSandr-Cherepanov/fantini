@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-image:url(assets/templates/site/img/bg_new2.jpg);">
+
+        <div class="header">
+            [[$menu]]
+        </div>
+        <div class="collar">
+            <div class="collar_inner">
+            </div>
+        </div>
+
+        <div class="content_bg">
+            [[$slider]]
+
+            <div class="content">
+                <h3 style="text-align: center">Датчики и реле Fantini Cosmi</h3>
+                <div class="download" style="position: relative;float: right;right: 228px;">
+
+                <!--<a href="/assets/docs/pdf/Fantini-Cosmi_2016.pdf" style="text-decoration: underline;" class="button">
+                <img src="/assets/templates/site/img/pdf.png" alt="Скачать полный каталог продукции" style="height: 30px;"/><span>Скачать каталог</span>
+                </a>-->
+                </div>
+                <br>
+                <div class="download" style="float: left;">
+
+                </div>
+                <br>
+                [[*content]]
+                [[getPage]]
+
+                <br>
+
+                <h3 style="text-align: center">Последние новости</h3>
+                <div class="tab_container" style="display: block;">
+                    [[!getPage? &element=`getResources` &parents=`16` &tpl=`tpl_news` &limit=`4` &includeTVs=`1`]]
+                    <!--[[+page]] из [[+pageCount]] -->
+                    <!-- <ul class="pages_nav">[[!+page.nav]]</ul> -->
+                </div>
+
+            </div>
+            <div class="bottom-push"></div>
+            <br>
+        </div>
+        <div class="bottom">
+            [[$footer]]
+        </div>
+</body>
+
+</html>
