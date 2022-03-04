@@ -1068,6 +1068,10 @@ form {
     display: none;
   }
 
+  .collar_inner ul {
+    display: none;
+  }
+
   .collar_inner {
     min-width: auto;
   }
@@ -1083,6 +1087,7 @@ form {
   .bottom ul {
     display: grid;
     margin-left: 0px;
+    z-index: 1;
   }
 
   .bottom ul li {
@@ -1105,6 +1110,11 @@ form {
   .bottom-img1 {
     position: static;
     padding-bottom: 55px !important;
+  }
+
+  .product_tpl {
+    text-align: center;
+    width: 300px !important;
   }
 
 
@@ -1144,6 +1154,10 @@ form {
     display: none;
   }
 
+  .collar_inner ul {
+    display: none;
+  }
+
   .collar_inner {
     min-width: auto;
   }
@@ -1159,6 +1173,7 @@ form {
   .bottom ul {
     display: grid;
     margin-left: 0px;
+    z-index: 1;
   }
 
   .bottom ul li {
@@ -1183,25 +1198,16 @@ form {
     padding-bottom: 55px !important;
   }
 
+  .product_tpl {
+    text-align: center;
+    width: 300px !important;
+  }
+
 
 
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
