@@ -1038,8 +1038,84 @@ form {
   margin: 0;
 }
 
-
 /* стили моб.меню, начало*/
+@media (max-width: 768px) {
+  .header {
+    min-width: auto;
+  }
+
+  .some_menu {
+    display: none;
+  }
+
+  .header_logo {
+    position: static;
+  }
+
+  /* моб.меню начало */
+  
+  /* моб.меню конец */
+
+  .phones {
+    display: none;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .content_bg {
+    min-width: auto !important;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 480px) {
+  .header {
+    min-width: auto;
+  }
+
+  .some_menu {
+    display: none;
+  }
+
+  .header_logo {
+    position: static;
+    width: 150px;
+  }
+
+  .phones {
+    display: none;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .content_bg {
+    min-width: auto !important;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
 
