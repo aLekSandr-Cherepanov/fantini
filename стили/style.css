@@ -1117,6 +1117,35 @@ form {
     width: 300px !important;
   }
 
+  .product_wrap {
+    flex-wrap: wrap;
+  }
+
+  .product_offer {
+    width: auto;
+  }
+
+  .contacts {
+    position: static;
+  }
+
+  .content {
+    display: grid;
+  }
+
+  .tab_container {
+    overflow-x: scroll !important;
+  }
+
+  .product_tpl {
+    opacity: 1;
+  }
+
+
+
+
+  
+
 
 
 
@@ -1201,7 +1230,33 @@ form {
   .product_tpl {
     text-align: center;
     width: 300px !important;
+    margin-bottom: 30px;
   }
+
+  .product_wrap {
+    flex-wrap: wrap;
+  }
+
+  .product_offer {
+    width: auto;
+  }
+
+  .contacts {
+    position: static;
+  }
+
+  .content {
+    display: grid;
+  }
+
+  .tab_container {
+    overflow-x: scroll !important;
+  }
+
+  .product_tpl {
+    opacity: 1;
+  }
+
 
 
 
