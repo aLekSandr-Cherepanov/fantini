@@ -1202,12 +1202,12 @@ transform: none;
   }
 
   .email {
-    display: none;
+    padding-top: 15px;
   }
 
   .content_bg {
     min-width: auto !important;
-    margin-top: 25px;
+    margin-top: 40px;
   }
 
   .slider_text_001 {
@@ -1226,12 +1226,25 @@ transform: none;
     display: none;
   }
 
+  .collar_inner_sub {
+    display: none;
+  }
+
   .collar_inner ul {
     display: none;
   }
 
   .collar_inner {
     min-width: auto;
+  }
+
+  .sisea-search-form {
+    margin-left: 31vw;
+  }
+
+  .collar_sub {
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
 
   .width_footer-grid {
@@ -1267,6 +1280,7 @@ transform: none;
 
   .bottom-img1 {
     position: static;
+    font-size: 14px !important;
     padding-bottom: 55px !important;
   }
 
@@ -1295,6 +1309,11 @@ transform: none;
   .tab_container {
     overflow-x: scroll !important;
   }
+
+  .tabs_container .tabs li {
+    padding: 5px 9px;
+  }
+   
 
   .product_tpl {
     opacity: 1;
@@ -1339,12 +1358,12 @@ transform: none;
   }
 
   .email {
-    display: none;
+    padding-top: 10px;
   }
 
   .content_bg {
     min-width: auto !important;
-    margin-top: 25px;
+    margin-top: 40px;
   }
 
   .slider_text_001 {
@@ -1369,6 +1388,19 @@ transform: none;
 
   .collar_inner {
     min-width: auto;
+  }
+
+  .sisea-search-form {
+    margin-left: 28vw;
+  }
+
+  .collar_sub {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .sisea-search-form input[type="text"] {
+    padding: 0 5px 0 15px;
   }
 
   .width_footer-grid {
@@ -1404,6 +1436,7 @@ transform: none;
 
   .bottom-img1 {
     position: static;
+    font-size: 14px !important;
     padding-bottom: 55px !important;
   }
 
@@ -1432,6 +1465,10 @@ transform: none;
 
   .tab_container {
     overflow-x: scroll !important;
+  }
+
+  .tabs_container .tabs li {
+    padding: 5px 9px;
   }
 
   .product_tpl {
