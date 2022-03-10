@@ -1047,7 +1047,7 @@ form {
 #menuToggle {
 display: block;
 position: relative;
-top: 60px;
+top: 50px;
 left: 25px;
 
 z-index: 3000;
@@ -1058,8 +1058,7 @@ user-select: none;
 
 #menuToggle a {
 text-decoration: none;
-color: #232323;
-
+color: #fff;
 transition: color 0.3s ease;
 }
 
@@ -1121,7 +1120,7 @@ transform-origin: 0% 100%;
 #menuToggle input:checked ~ span{
 opacity: 1;
 transform: rotate(45deg) translate(-2px, -1px);
-background: #232323;
+background: #fff;
 }
 
 /*
@@ -1150,7 +1149,7 @@ margin: -100px 0 0 -50px;
 padding: 50px;
 padding-top: 125px;
 padding-bottom: 100%;
-background: #dbdbdb;
+background: #021847;
 list-style-type: none;
 -webkit-font-smoothing: antialiased;
 /* to stop flickering of text in safari */  
@@ -1181,13 +1180,11 @@ transform: none;
 
 
 
-
-
-
 /* стили моб.меню, начало*/
 @media (max-width: 768px) {
   .header {
     min-width: auto;
+    opacity: 1;
   }
 
   .some_menu {
@@ -1197,6 +1194,7 @@ transform: none;
   .header_logo {
     position: static;
     margin-left: 30vw;
+    padding: 7px 0px 0px 90px;
   }
 
   .phones {
@@ -1209,6 +1207,19 @@ transform: none;
 
   .content_bg {
     min-width: auto !important;
+    margin-top: 25px;
+  }
+
+  .slider_text_001 {
+    padding: 60px 15px 4px 60%;
+  }
+
+  .slider_text_002 {
+    padding: 63px 13px 4px 70%;
+  }
+
+  .slider_img {
+    margin: 16px 0 0 10px;
   }
 
   .collar_inner_sub ul li {
@@ -1309,6 +1320,7 @@ transform: none;
 @media (max-width: 480px) {
   .header {
     min-width: auto;
+    opacity: 1;
   }
 
   .some_menu {
@@ -1317,8 +1329,9 @@ transform: none;
 
   .header_logo {
     position: static;
-    margin-left: 25vw;
     width: 150px;
+    margin-left: 25vw;  
+    padding: 7px 0px 0px 90px;
   }
 
   .phones {
@@ -1331,6 +1344,19 @@ transform: none;
 
   .content_bg {
     min-width: auto !important;
+    margin-top: 25px;
+  }
+
+  .slider_text_001 {
+    padding: 60px 15px 4px 60%;
+  }
+
+  .slider_text_002 {
+    padding: 63px 13px 4px 70%;
+  }
+
+  .slider_img {
+    margin: 16px 0 0 10px;
   }
 
   .collar_inner_sub ul li {
@@ -1429,15 +1455,10 @@ transform: none;
 
 
   
-    
-    
 
 
 
 }
-
-
-
 
 
 
