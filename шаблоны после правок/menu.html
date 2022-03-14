@@ -1,4 +1,46 @@
 <div class="header_menu">
+   
+  <div class="mobil-menu">
+        <nav class="nav-menu" role="navigation">
+            <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+                <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+          
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+                <ul id="menu">
+                    <a href="https://test.fantinicosmi-rus.ru/">
+                        <li>Главная</li>
+                    </a>
+                    <a href="catalogue/">
+                        <li>Каталог</li>
+                    </a>
+                    <a href="news/">
+                        <li>Новости</li>
+                    </a> 
+                    <a href="contacts">
+                        <li>Контакты</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+  
 
   <a href="[[++site_url]]"><img src="assets/templates/site/img/logo3.png" class="header_logo" width="200" style="padding-left: 30px;"/></a>
   <div class="some_menu">[[!Wayfinder? &startId=`0`&level=`1` &ignoreHidden=`0`]]</div>
