@@ -1687,15 +1687,9 @@ transform: none;
   color: inherit;
 }
 
+
+
 /* Стили для слайдера конец */
-
-
-@media (max-width: 768px) {
-  .about_us {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 
 
 
