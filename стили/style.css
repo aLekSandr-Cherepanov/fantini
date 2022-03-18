@@ -21,7 +21,7 @@ input {
   min-width:1010px;
   white-space: nowrap;
   width:100%; 
-  background: #021847; 
+  background: #005599; 
   box-shadow: 0 0 3px rgba(0,0,0,0.7); 
   position: fixed; 
   opacity: 0.95; 
@@ -239,7 +239,7 @@ nav {
 .header_menu{
   margin: 0 auto;
   width: 100%;    
-  background: #021847;
+  /*background: #021847;*/
   height: 20%;
   font-weight: 500;
 }
