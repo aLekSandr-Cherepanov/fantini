@@ -1816,6 +1816,12 @@ transform: none;
   margin:0 15px 15px 0;
 }
 
+.button-news {
+  background-color: #bdc1c6a1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 
 @media (max-width: 768px) {
   .about_us {
