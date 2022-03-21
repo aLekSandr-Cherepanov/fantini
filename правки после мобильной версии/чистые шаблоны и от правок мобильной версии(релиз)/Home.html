@@ -1,0 +1,83 @@
+<html>
+    [[$head]]
+    <body style = "background-image:url(assets/templates/site/img/bg_new2.jpg);">
+     
+     
+
+    <div class="header">
+    
+        [[$menu]]
+    </div>
+    <div class="collar">
+	     <div class="collar_inner">
+	     </div>
+	</div>  	
+     
+	<div class = "content_bg">	
+    [[$slider]]	
+
+<div class="content">
+<h3 style="text-align: center">Датчики и реле Fantini Cosmi</h3>
+<div class="download" style="position: relative;float: right;right: 228px;">
+
+<!--<a href="/assets/docs/pdf/Fantini-Cosmi_2016.pdf" style="text-decoration: underline;" class="button">
+  <img src="/assets/templates/site/img/pdf.png" alt="Скачать полный каталог продукции" style="height: 30px;"/><span>Скачать каталог</span>
+</a>-->
+		</div>
+<br>
+<div class="download" style="float: left;">
+
+</div>
+<br>
+         [[*content]]
+[[getPage]]
+
+<br>
+
+<h3 style="text-align: center">Последние новости</h3>
+<div class="tab_container" style="display: block;">
+[[!getPage? &element=`getResources` &parents=`16` &tpl=`tpl_news` &limit=`4` &includeTVs=`1`]]
+<!--[[+page]] из [[+pageCount]] -->
+<!-- <ul class="pages_nav">[[!+page.nav]]</ul> -->
+</div>
+
+	</div>
+<div class="bottom-push"></div>
+<br>
+	</div>
+<div class="bottom">
+	[[$footer]]
+	</div>
+    </body>
+ <!--sliderJS-->
+	
+        <!--<script src="assets/templates/site/sliderJS/jquery.slides.min.js"></script>-->
+		[[$slider_js]]
+	
+        <script type="text/javascript">
+        $(document).ready(function() {
+ 
+            $(".header_inner_menu").parent().hover(
+                 function(){
+                 $(".header_inner_menu").show(); 
+                 },
+                 function(){
+                 $(".header_inner_menu").hide(); 
+            });	
+					
+           $('ul.tabs').each(function() {
+           $(this).find('li').each(function(i) {
+           $(this).click(function() {
+           $(this).addClass('active').siblings().removeClass('active');
+           var p = $(this).parents('div.tabs_container');
+           p.find('div.tab_container').hide();
+           p.find('div.tab_container:eq(' + i + ')').show();
+           });
+           });
+           });
+            	
+		})
+		</script>
+           
+            
+</html>
