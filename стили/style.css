@@ -1805,6 +1805,8 @@ transform: none;
 правок на сайт,после мобильной версии */
 
 .about_us {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
@@ -1814,15 +1816,22 @@ transform: none;
 }
 
 .img-about_us {
-  height: 20vw;
+  height: 28vw;
   float:left; 
-  margin:0 15px 15px 0;
+  margin:0 60px 15px 0;
 }
 
 .button-news {
   background-color: #bdc1c6a1;
   border-radius: 10px;
   padding: 10px;
+  border: 1px solid #9f9f9f;
+  text-decoration: none;
+}
+
+.wrap_img {
+  display: flex;
+  margin-bottom: 50px;
 }
 
 
@@ -1848,6 +1857,10 @@ transform: none;
     height: 40px;
   }
 
+  .wrap_img {
+    flex-wrap: wrap;
+  }
+
 }
 
 
@@ -1867,6 +1880,11 @@ transform: none;
   .collar_sub {
     height: 35px;
   }
+
+  .wrap_img {
+    flex-wrap: wrap;
+  }
+
 }
 
 
