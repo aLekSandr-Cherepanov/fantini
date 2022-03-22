@@ -385,17 +385,17 @@ display: inline-block;
 }
         /* ССЫЛКИ */
 .text_link{
-  color: #455663;
+  color: #bdc1c6;
 }
 .link_subcategory{
-  color: #455663;
+  color: #bdc1c6;
 }
 a:visited {
-    color: #455663;
+    color: #bdc1c6;
 }
 
 a:link {
-    color: #bdc1c6;
+  color: #545454;
     
 }
 /*
@@ -547,6 +547,7 @@ h4{
   height: 100%;
   padding: 0;
   margin: 0 0 -80px 0;
+  padding-bottom: 45px;
 }
        /*ТАБЛИЦА*/
 table {
@@ -640,6 +641,7 @@ display: inline;
 }
 .wp-pagenavi {
 text-align: center;
+margin-bottom: 60px;
 }
 
 
@@ -744,7 +746,7 @@ background: rgb(255, 255, 255);
   text-decoration:none;
 }
 
-.bottom  ul li a:visited{
+/*.bottom  ul li a:visited{
   color:#141414; 
   text-decoration:none;
 }
@@ -752,7 +754,7 @@ background: rgb(255, 255, 255);
 .bottom  ul li a:hover{
   color:#141414; 
   text-decoration:underline;
-}
+}*/
 
 .bottom-text{
   position:absolute; 
@@ -1718,7 +1720,7 @@ transform: none;
   left: 50%;
   top: 50%;
   width: 150vmax;
-  height: 56vmax;
+  height: 65vmax;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   transition: -webkit-clip-path 0s 0.91s;
@@ -1834,6 +1836,10 @@ transform: none;
   margin-bottom: 50px;
 }
 
+.slider {
+  height: 55vh;
+}
+
 
 @media (max-width: 768px) {
   .about_us {
@@ -1850,7 +1856,7 @@ transform: none;
   }
 
   .img-about_us {
-    height: 58vw;
+    height: 62vw;
   }
   
   .collar_sub {
@@ -1859,6 +1865,10 @@ transform: none;
 
   .wrap_img {
     flex-wrap: wrap;
+  }
+
+  .tab_container {
+    padding: 0px;
   }
 
 }
@@ -1870,7 +1880,17 @@ transform: none;
   }
 
   .slide {
-    height: 80vmax;
+    height: 65vmax;
+  }
+
+  .slider__control {
+    left: 10%;
+    width: 55px;
+    height: 55px;
+  }
+
+  .slider__control--right {
+    left: 93%;
   }
 
   .about_us {
@@ -1883,6 +1903,14 @@ transform: none;
 
   .wrap_img {
     flex-wrap: wrap;
+  }
+
+  .tab_container {
+    padding: 0px;
+  }
+
+  .content_bg {
+    padding-bottom: 0px;
   }
 
 }
