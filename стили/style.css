@@ -113,7 +113,7 @@ nav {
     }
 
     nav ul li {
-        width: 120px;
+        width: 175px;
         text-align: center;
         float: left;
         height: 100%;
@@ -233,6 +233,7 @@ nav {
 /***************************************************/
 .header_logo{ 
   width: 180px;
+  margin-left: 7vw;
   position: absolute;
   padding: 15px 0px 0px 90px;
 }
@@ -257,7 +258,7 @@ float: left;
 }
 .header_menu ul li {
   display: inline-block;
-  margin: 0px 24px;
+  /*margin: 0px 24px;*/
   font: 15px;
   /* padding: 25px 8px 20px 8px; */
 /* padding: 25px 0px 20px 0px; */
@@ -375,7 +376,7 @@ display: inline-block;
 }
 .collar_inner_sub ul li {
   display:inline-block;
-  padding: 0px 25px 0px 25px; 
+  padding: 0px 0px 0px 7vw; 
 }
 .collar_inner_sub ul li a{
   color: #fff;
@@ -877,7 +878,7 @@ background: rgb(255, 255, 255);
 }
 .tabs_container .tabs li {
   cursor: pointer;
-  background: rgba(65, 82, 117, 0.09);
+  background: rgb(65 82 117 / 20%);
   border-bottom: 1px solid #e0e0e0;
   padding: 5px 25px;
   margin: 0 !important;
@@ -1627,13 +1628,19 @@ transform: none;
 
 .slider {
   position: relative;
-  height: 70vh;
+  overflow: hidden;
+  height: 53vh;
+  margin: 90px 190px 0;
 }
+
 .slider__slides {
+  overflow: hidden;
   z-index: 1;
   position: relative;
   height: 100%;
+  border-radius: 40px;
 }
+
 .slider__control {
   z-index: 2;
   position: absolute;
@@ -1648,12 +1655,15 @@ transform: none;
   transition: background-color 0.3s;
   cursor: pointer;
 }
+
 .slider__control--right {
   left: 95%;
 }
+
 .slider__control:hover {
   background-color: #2da6ff;
 }
+
 .slider__control-line {
   position: absolute;
   left: 23px;
@@ -1749,7 +1759,7 @@ transform: none;
           clip-path: circle(120vmax at 30vw 50%);
 }
 .slide:nth-child(1) .slide__inner {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-2.jpg");
+  background-image: url("https://i.ytimg.com/vi/8erMMzBe8o4/maxresdefault.jpg");
 }
 .slide:nth-child(2) .slide__inner {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-3.jpg");
@@ -1784,6 +1794,7 @@ transform: none;
   background: rgba(0, 0, 0, 0.3);
 }
 .slide__content {
+  display: none;
   position: absolute;
   left: 13%;
   top: 50%;
@@ -1844,9 +1855,9 @@ transform: none;
   margin-bottom: 50px;
 }
 
-.slider {
+/*.slider {
   height: 55vh;
-}
+}*/
 
 
 @media (max-width: 768px) {
@@ -1877,6 +1888,11 @@ transform: none;
 
   .tab_container {
     padding: 0px;
+  }
+
+  .slider {
+    height: 43vh;
+    margin: 80px 0px 0;
   }
 
 }
@@ -1919,6 +1935,15 @@ transform: none;
 
   .content_bg {
     padding-bottom: 0px;
+  }
+
+  .slider {
+    height: 43vh;
+    margin: 20px 0px 0;
+  }
+
+  .slider__slides {
+    border-radius: 0px;
   }
 
 }
