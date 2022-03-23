@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 body {
-  background-color: #F0F0F0;
+  background-color: #303134;
   margin:0px;
   padding:0px;
   font-size: 16px;
@@ -71,13 +71,13 @@ input {
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background: white;  
+  background: #ffffff00;  
   border: 0;
 }
 
 .sisea-search-form input[type="text"]{  
   height: 35px;
-  border: 1px solid rgba(0,0,0,0.3);
+  border: 1.5px solid rgb(0 0 0 / 58%);
   border-radius: 20px;
   padding: 0 38px 0 15px;
   
@@ -348,7 +348,7 @@ display: inline-block;
 .collar_sub {
   background-image: url(/assets/templates/site/img/bg_new2.jpg);  
   background-color: transparent;
-  background: white;
+  background: #7cb1d7;
   margin-top: 25px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.7);
   height: 60px;
@@ -378,10 +378,10 @@ display: inline-block;
   padding: 0px 25px 0px 25px; 
 }
 .collar_inner_sub ul li a{
-  color: #080808;
-  text-shadow: 1px 1px 3px rgba(242, 242, 242, 0.8);
+  color: #fff;
+  /*text-shadow: 1px 1px 3px rgba(242, 242, 242, 0.8);*/
   text-decoration: none;
-  font: 13px;
+  font-size: 16px;
 }
         /* ССЫЛКИ */
 .text_link{
@@ -453,19 +453,20 @@ h4{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.product_tpl{
-  
+.product_tpl{ 
   border: 2px solid rgba(189, 192, 198, 0.79);
+  border-radius: 25px;
   margin-bottom: 1.5%;
+  margin-right: 7px;
   overflow: hidden;
   position: relative;   
   -webkit-transition: 0.5s Ease;
   -moz-transition: 0.5s Ease;
   -o-transition: 0.5s Ease;
-  transition: 0.5s Ease; 
+  transition: 0.2s Ease; 
   width: 210px;
   height: 335px;
-  opacity: 0.7;
+  opacity: 1;
 }
 .product_tpl:hover{
   opacity: 1;
@@ -1441,6 +1442,7 @@ transform: none;
   #menu li {
     padding: 25px 0;
     font-size: 19px;
+    border-bottom: 1px solid;
   }
 
 
@@ -1598,6 +1600,7 @@ transform: none;
   #menu li {
     padding: 25px 0;
     font-size: 19px;
+    border-bottom: 1px solid;
   }
 
 }
@@ -1829,6 +1832,11 @@ transform: none;
   padding: 10px;
   border: 1px solid #9f9f9f;
   text-decoration: none;
+}
+
+.button-news:hover {
+  box-shadow: 1px 1px 8px 2px #959595;
+  transition: 0.2s Ease;
 }
 
 .wrap_img {
