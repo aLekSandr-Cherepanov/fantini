@@ -1090,7 +1090,7 @@ span.error{
 
 .product_wrap {
   display: flex;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   justify-content: space-around;
   
 }
@@ -1637,7 +1637,7 @@ transform: none;
   position: relative;
   overflow: hidden;
   height: 28vh;
-  margin: 90px 190px 0;
+  margin: 65px 190px 0;
 }
 
 .slider__slides {
@@ -1869,6 +1869,16 @@ transform: none;
   height: 55vh;
 }*/
 
+.slide__content_left {
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  margin-left: -30px;
+  margin-top: 48px;
+  max-width: 480px;
+  color: rgb(34, 34, 34);
+}
+
 
 @media (max-width: 768px) {
   .about_us {
@@ -1959,6 +1969,14 @@ transform: none;
 
   .slider__slides {
     border-radius: 0px;
+  }
+
+  .slide__heading {
+    font-size: 17px;
+  }
+
+  .slide__text {
+    font-size: 17px;
   }
 
 }
