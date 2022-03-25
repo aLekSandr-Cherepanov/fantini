@@ -17,31 +17,72 @@
     [[$slider]]	
 
 <div class="content">
-<h3 style="text-align: center; font-size: 23px; margin-bottom: 30px;">Датчики и реле Fantini Cosmi</h3>
-<div class="download" style="position: relative;float: right;right: 228px;">
+  <div>
+    <h3 style="text-align: center;font-size: 23px;margin-bottom:50px;">Каталог Fantini Cosmi</h3>
+    <div class="product_wrap">
+      <div class="product_tpl" style="height: 260px; width: 216px;">
+        <div class="pr_title" style="margin: 20px 5px 2px 5px;">
+          <a href="/index.php?id=9" title="Регуляторы уровня">Регуляторы уровня</a>
+        </div>
+        <a href="/index.php?id=9" title="[[+pagetitle]]">
+          <img src="assets/images/level_regulators/level_regulators_image/ad22.png" title="Регуляторы уровня" />
+        </a>
+      </div>
+       
+      <div class="product_tpl" style="height: 260px; width: 216px;">
+        <div class="pr_title" style="margin: 20px 5px 2px 5px;">
+          <a href="/index.php?id=13" title="Реле давления">Реле давления</a>
+        </div>
+        <a href="/index.php?id=13" title="[[+pagetitle]]">
+          <img src="assets/images/pressure_switch/pressure_switch_image/b71/b71_1.jpg" title="Реле давления" />
+        </a>
+      </div>
+        
+      <div class="product_tpl" style="height: 260px; width: 216px;">
+        <div class="pr_title" style="margin: 20px 5px 2px 5px;">
+          <a href="/index.php?id=14" title="Реле протока и потока">Реле протока и потока</a>
+        </div>
+        <a href="/index.php?id=14" title="[[+pagetitle]]">
+          <img src="assets/images/flow_switch/flow_switch_image/ff82/ff82_0.jpg" title="Реле протока и потока" />
+        </a>
+      </div>
 
-<!--<a href="/assets/docs/pdf/Fantini-Cosmi_2016.pdf" style="text-decoration: underline;" class="button">
-  <img src="/assets/templates/site/img/pdf.png" alt="Скачать полный каталог продукции" style="height: 30px;"/><span>Скачать каталог</span>
-</a>-->
-		</div>
-<br>
-<div class="download" style="float: left;">
+      <div class="product_tpl" style="height: 260px; width: 216px;">
+        <div class="pr_title" style="margin: 20px 5px 2px 5px;">
+          <a href="/index.php?id=7" title="Регуляторы температуры">Регуляторы температуры</a>
+        </div>
+        <a href="/index.php?id=7" title="[[+pagetitle]]">
+          <img src="assets/images/regulators_of_temperature/room_thermostats/c44/c44.jpg" title="Регуляторы температуры" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="text-align: center; font-size: 23px; margin-bottom: 30px;">Датчики и реле Fantini Cosmi</h3>
+  <div class="download" style="position: relative;float: right;right: 228px;">
+
+  <!--<a href="/assets/docs/pdf/Fantini-Cosmi_2016.pdf" style="text-decoration: underline;" class="button">
+    <img src="/assets/templates/site/img/pdf.png" alt="Скачать полный каталог продукции" style="height: 30px;"/><span>Скачать каталог</span>
+  </a>-->
+  		</div>
+  <br>
+  <div class="download" style="float: left;">
+
+  </div>
+  <br>
+           [[*content]]
+  [[getPage]]
+
+  <br>
+
+  <h3 style="text-align: center">Последние новости</h3>
+  <div class="tab_container" style="display: block;">
+  [[!getPage? &element=`getResources` &parents=`16` &tpl=`tpl_news` &limit=`4` &includeTVs=`1`]]
+  <!--[[+page]] из [[+pageCount]] -->
+  <!-- <ul class="pages_nav">[[!+page.nav]]</ul> -->
+  </div>
 
 </div>
-<br>
-         [[*content]]
-[[getPage]]
-
-<br>
-
-<h3 style="text-align: center">Последние новости</h3>
-<div class="tab_container" style="display: block;">
-[[!getPage? &element=`getResources` &parents=`16` &tpl=`tpl_news` &limit=`4` &includeTVs=`1`]]
-<!--[[+page]] из [[+pageCount]] -->
-<!-- <ul class="pages_nav">[[!+page.nav]]</ul> -->
-</div>
-
-	</div>
 <div class="bottom-push"></div>
 <br>
 	</div>

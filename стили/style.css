@@ -1419,6 +1419,7 @@ transform: none;
   .content {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
 
   .tab_container {
@@ -1797,7 +1798,7 @@ transform: none;
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 13%);
 }
 .slide__content {
   /*display: none;*/
@@ -1828,7 +1829,7 @@ transform: none;
 
 .about_us {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   margin-bottom: 100px;
 }
 
@@ -1838,7 +1839,7 @@ transform: none;
 }
 
 .img-about_us {
-  height: 25vw;
+  height: 17vw;
   float:left; 
   /*margin:0 60px 15px 0;*/
 }
@@ -1857,10 +1858,11 @@ transform: none;
 }
 
 .wrap_img {
-  display: flex;
+  /*display: flex;*/
   width: 100%;
-  margin-bottom: 50px;
-  justify-content: space-between;
+  margin-right: 40px;
+  /*margin-bottom: 50px;*/
+  /*justify-content: space-between;*/
 }
 
 /*.slider {
