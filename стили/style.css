@@ -1813,9 +1813,11 @@ transform: none;
 .slide__heading {
   margin-bottom: 20px;
   font-size: 20px;
+  color: #fff;
 }
 .slide__text {
   font-size: 25px;
+  color: #fff;
 }
 .slide__text a {
   color: inherit;
