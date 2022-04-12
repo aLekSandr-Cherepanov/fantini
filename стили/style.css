@@ -396,7 +396,7 @@ a:visited {
 }
 
 a:link {
-  color: #545454;
+  color: #a4a4a4;
     
 }
 /*
@@ -1949,7 +1949,7 @@ transform: none;
   }
 
   .collar_sub {
-    height: 35px;
+    height: 20px;
   }
 
   .wrap_img {
